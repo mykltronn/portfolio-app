@@ -4,12 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 export default class Footer extends Component {
     render() {
-        <div>
-            <nav>
-                <NavLink activeClassName="selected" className="nav-link" exact to="/">main</NavLink>
-                <NavLink activeClassName="selected" className="nav-link" exact to="/about">about</NavLink>
-                <NavLink activeClassName="selected" className="nav-link" exact to="/portfolio">portfolio</NavLink>
-            </nav>
-        </div>
+        return(
+            <div className="footer">
+            </div>
+        )
     }
 }

@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import BaseLayout form './BaseLayout.js';
+import Sidebar from './Sidebar.js';
 
 export default class About extends Component {
     render() {
         return(
-            <BaseLayout >
-
-            </BaseLayout>
+            <div className="main-box">
+                <Sidebar text="About" />
+                <div className="content-box">
+                    <h1>Content</h1>
+                </div>
+            </div>
         )
     }
 }
