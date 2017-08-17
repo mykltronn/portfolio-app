@@ -1,4 +1,3 @@
-/*font color #949595 ?*/
         /*main*/
 
 .jumbo-background {
@@ -35,4 +34,17 @@
 @keyframes cursor {
     from, to { border-color: transparent }
     50% { border-color: black; }
+}
+
+.ContactIcons {
+
+}
+
+.ContactIcons li {
+
+}
+
+.ContactIcons i {
+    font-size: 40px;
+    color: #5D737E;
 }

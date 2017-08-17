@@ -1,9 +1,23 @@
 .Portfolio {
-    height: 2000px;
 }
 
-.div-line {
-    border-left: 2px solid #BD6B73;
-    height: 100%;
+#div-line {
+    z-index: -1;
+    border-left: 2px solid #CCE3DE;
+    height: 90%;
     width: 2px;
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Project {
+    position: relative;
+    width: 45%;
+    padding: 30px;
+}
+
+.Project:nth-child(odd) {
+    margin-left: 50%;
 }

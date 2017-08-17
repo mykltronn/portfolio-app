@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ContactIcons } from './ContactIcons.js';
 import './jumbotron.css'
 
 export default class Jumbotron extends Component {
@@ -12,6 +13,7 @@ export default class Jumbotron extends Component {
                         <p id="typed-text">my name is Michael Ashton. I'm a web developer.</p>
                     </div>
                 </div>
+                <ContactIcons />
             </div>
         )
     }
