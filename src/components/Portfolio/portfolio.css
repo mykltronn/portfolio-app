@@ -1,0 +1,9 @@
+.Portfolio {
+    height: 2000px;
+}
+
+.div-line {
+    border-left: 2px solid #BD6B73;
+    height: 100%;
+    width: 2px;
+}
