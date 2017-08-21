@@ -2,3 +2,12 @@ body {
     background-color: #FFFFF0;
     color: #5D737E;
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

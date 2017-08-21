@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class  extends Component {
-    render() {
-        // let projectToRender;
-        // switch (this.props.which) {
-        //     case "1":
-        //         projectToRender =
-        //
-        //         break;
-        //     default:
-        //
-        // }
-
+export const Project = (props) => {
+    let project = props.project
+    if(!project) {
         return (
-            <div className="Project">
-                <div className="image"></div>
-                <h2>Project Name</h2>
-                <p>project description project description project description project description project description project description project description project description project description project description project description project description project description project description project description </p>
-                <h3>Built Using</h3>
-                <p>HTML5, CSS3, JavaScript, React, Redux, Node.js, Liquor</p>
-            </div>
+            <h1 className="loading">Loading Projects</h1>
         )
     }
+    return (
+        <div className="Project">
+            <div className="image"></div>
+            <h2>{project.name}</h2>
+            <p>{project.description}</p>
+            <h3>Built Using</h3>
+            <p>{project.languages}</p>
+            <ul className="project-links">
+                <li><a href={project.webLink} target="_blank" rel="noopener noreferrer">view project</a></li>
+                <li><a href={project.gitLink} target="_blank" rel="noopener noreferrer">github</a></li>
+            </ul>
+        </div>
+    )
 }
