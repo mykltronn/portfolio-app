@@ -1,20 +1,4 @@
-        /*main*/
-
-.jumbo-background {
-    background-image: url('https://static.pexels.com/photos/257894/pexels-photo-257894.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left center;
-    filter: blur(5px) grayscale(70%) opacity(0.8);
-    height: 600px;
-}
-
-.jumbo-content {
-    position: absolute;
-    top: 20%; left: 60%;
-    transform: translate(-50%);
-}
-
+        /*animation*/
 #typed-text {
     overflow: hidden;
     border-right: .15em solid black;
@@ -36,17 +20,45 @@
     50% { border-color: black; }
 }
 
-.ContactIcons {
-    position: absolute;
-    margin-top: 120px;
+        /*main*/
+
+.Jumbotron {
+  display: grid;
+  grid-template-columns: auto 400px;
 }
 
-.ContactIcons li {
-    display: inline;
-    margin-right: 80px ;
+.jumbo-wrap-one {
+  height: 100vh;
+  background-image: url('../../img/coffee-and-computer.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+  .jumbo-content {
+    margin-top: 170px;
+  }
+
+.jumbo-wrap-two {
+  height: 100vh;
+}
+
+.ContactIcons {
+  background-color: black;
+  margin: 0px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .ContactIcons i {
-    font-size: 40px;
-    color: #5D737E;
+    font-size: 30px;
+    color: white;
+}
+
+.logo {
+  background-image: url('../../img/maLogoCircPink.png');
+  width: 400px;
+  height: 300px;
 }

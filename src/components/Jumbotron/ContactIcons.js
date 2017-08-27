@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ContactIcons = () => {
+const ContactIcons = () => {
     return (
         <ul className="ContactIcons">
             <li><a href="https://github.com/mykltronn"><i className="fa fa-github" aria-hidden="true"></i></a></li>
@@ -9,3 +9,5 @@ export const ContactIcons = () => {
         </ul>
     )
 }
+
+export default ContactIcons;
