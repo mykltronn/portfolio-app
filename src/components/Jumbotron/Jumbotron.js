@@ -8,6 +8,7 @@ export default class Jumbotron extends Component {
     return (
       <div className="Jumbotron">
         <div className="jumbo-wrap-one">
+          <div className="jumbo-background"></div>
           <Navbar />
           <div className="jumbo-content">
             <h1>Welcome.</h1>

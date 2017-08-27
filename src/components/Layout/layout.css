@@ -13,7 +13,7 @@ a {
   box-sizing: border-box;
   height: 170px;
   width: 880px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(14, 15, 25, 0.7);
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -34,6 +34,10 @@ a {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 90px;
+}
+
+.nav-item {
+  color: white;
 }
 
 /*.Navbar {

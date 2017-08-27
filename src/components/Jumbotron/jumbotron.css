@@ -24,41 +24,52 @@
 
 .Jumbotron {
   display: grid;
-  grid-template-columns: auto 400px;
+  grid-template-columns: auto 200px;
 }
 
 .jumbo-wrap-one {
   height: 100vh;
-  background-image: url('../../img/coffee-and-computer.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: grayscale(100%);
-}
 
+}
+  .jumbo-background {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../img/coffee-and-computer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%) blur(2px);
+  }
   .jumbo-content {
     margin-top: 170px;
   }
 
 .jumbo-wrap-two {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+  background-color: #0E0F19;
+  justify-content: space-between;
 }
 
 .ContactIcons {
-  background-color: black;
+  background-color: #0E0F19;
+  height: 350px;
   margin: 0px;
   padding: 20px 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+  align-self: center;
 }
 
 .ContactIcons i {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
 }
 
 .logo {
-  background-image: url('../../img/maLogoCircPink.png');
-  width: 400px;
-  height: 300px;
+  background-image: url('../../img/maLogoWhite.png');
+  background-size: cover;
+  width: 100%;
+  align-self: center;
 }
