@@ -37,11 +37,13 @@
 }
 
 .ContactIcons {
-
+    position: absolute;
+    margin-top: 120px;
 }
 
 .ContactIcons li {
-
+    display: inline;
+    margin-right: 80px ;
 }
 
 .ContactIcons i {

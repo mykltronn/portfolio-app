@@ -12,8 +12,8 @@ export default class Jumbotron extends Component {
                     <div className="typed-text-div">
                         <p id="typed-text">my name is Michael Ashton. I'm a web developer.</p>
                     </div>
+                    <ContactIcons />
                 </div>
-                <ContactIcons />
             </div>
         )
     }
