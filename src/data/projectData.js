@@ -14,7 +14,7 @@ const projects = [
         languages: "Node.js, React, Redux",
         webLink:"",
         gitLink:"https://github.com/mykltronn/redux-iron-store",
-        image: ""
+        image: "./img/NuU.jpeg"
     },
     {
         name: "Snippet Organizer",

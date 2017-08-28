@@ -12,7 +12,7 @@ export const Project = (props) => {
       <div className="project-image">
           <a href={project.webLink}><img src={project.image}/></a>
       </div>
-      <div className="project-dets-wrap">
+      <div className="project-deets-wrap">
         <div className="project-details">
           <h2>{project.name}</h2>
           <p>{project.description}</p>
