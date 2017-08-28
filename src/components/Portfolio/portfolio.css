@@ -1,6 +1,14 @@
 .Portfolio {
-    height: auto;
-    width: 100vw;
+
+}
+
+.portfolio-strip {
+  background-color: #C7EF00;
+  width: 200px;
+  height: 200vh;
+  position: absolute;
+  left: 100px;
+  margin-top: -80px;
 }
 
 .Project {

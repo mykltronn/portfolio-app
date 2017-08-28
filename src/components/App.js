@@ -3,7 +3,6 @@ import '../styles/App.css';
 // import children
 import Layout from './Layout/Layout.js';
 import Jumbotron from './Jumbotron/Jumbotron.js';
-import Blurb from './Blurb/Blurb.js';
 import Portfolio from './Portfolio/Portfolio.js'
 
 export default class App extends Component {

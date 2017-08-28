@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ContactIcons from './ContactIcons.js';
 import Navbar from '../Layout/Navbar.js';
+import Blurb from './Blurb.js';
 import './jumbotron.css'
 
 export default class Jumbotron extends Component {
@@ -8,13 +9,15 @@ export default class Jumbotron extends Component {
     return (
       <div className="Jumbotron">
         <div className="jumbo-wrap-one">
-          <div className="jumbo-background"></div>
           <Navbar />
-          <div className="jumbo-content">
-            <h1>Welcome.</h1>
-            <div className="typed-text-div">
-              <p id="typed-text">my name is Michael Ashton. I'm a web developer.</p>
+          <div className="jumbo-background">
+            <div className="jumbo-content">
+              <h1>Welcome.</h1>
+              <div className="typed-text-div">
+                <p id="typed-text">my name is Michael Ashton. I'm a web developer.</p>
+              </div>
             </div>
+            <Blurb />
           </div>
         </div>
 
