@@ -6,7 +6,7 @@ import './portfolio.css'
 export default class Portfolio extends Component {
   render() {
     return (
-      <div className="Portfolio" id="Portfolio">
+      <div className="Portfolio">
         <div className="projects">
           {projects.map(project => {
             return (

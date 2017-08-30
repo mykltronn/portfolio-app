@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Navbar from '../Layout/Navbar.js';
-import Blurb from './Blurb.js';
-import './jumbotron.css'
+import './home.css'
 
-export default class Jumbotron extends Component {
+export default class Home extends Component {
   render() {
     return (
-      <div className="Jumbotron">
+      <div className="Home">
         <div className="logo"></div>
         <div className="text-one-wrap">
           <p id="typed-text-one">my name is Michael Ashton</p>
