@@ -20,3 +20,50 @@
   padding: 32px;
   margin-top: 20px;
 }
+
+    /*port EmailDrop component stylings*/
+
+.email {
+  cursor: pointer;
+}
+
+.EmailDrop {
+  box-sizing: border-box;
+  width: 140px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+  top: auto;
+  bottom: 25px;
+  left: 70px;
+  padding: 10px 10px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 12px;
+  background-color: black;
+  transition: all 0.5s;
+  transform: scale(0.0);
+}
+.show-email {
+  transform: scale(1.0);
+}
+#copy-button {
+  width: 40px;
+  height: 20px;
+  margin: 7px 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+#copy-button:active {
+  outline: 0;
+  transform: scale(0.9);
+}

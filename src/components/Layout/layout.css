@@ -91,7 +91,7 @@ li {
   font-weight: bold;
   overflow: hidden;
   position: absolute;
-  top: 5px;
+  top: 6px;
   margin-left: -55px;
   padding: 10px 10px;
   font-size: 12px;
@@ -114,4 +114,9 @@ li {
   color: black;
   font-size: 12px;
   border-radius: 5px;
+}
+
+#copy-button:active {
+  outline: 0;
+  transform: scale(0.9);
 }
