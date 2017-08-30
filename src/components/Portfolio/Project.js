@@ -16,10 +16,15 @@ export const Project = (props) => {
         <h2>{project.name}</h2>
         <p>{project.description}</p>
         <h3>Built Using</h3>
-        <p>{project.languages}</p>
+        <p id="details-lang">{project.languages}</p>
         <ul className="project-links">
-          <li><a href={project.webLink} target="_blank" rel="noopener noreferrer">view project</a></li>
-          <li><a href={project.gitLink} target="_blank" rel="noopener noreferrer">github</a></li>
+          <li>
+            <a href={project.webLink} target="_blank" rel="noopener noreferrer">view project</a>
+          </li>
+          <span>|</span>
+          <li>
+            <a href={project.gitLink} target="_blank" rel="noopener noreferrer">github</a>
+          </li>
         </ul>
       </div>
     </div>

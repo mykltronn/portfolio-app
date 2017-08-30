@@ -4,7 +4,7 @@
   height: 70vh;
   width: 70vw;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .Blurb {
@@ -12,4 +12,8 @@
   line-height: 2;
   padding: 32px;
   margin-top: 20px;
+}
+
+.Blurb>p {
+  margin-bottom: 18px;
 }

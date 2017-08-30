@@ -24,14 +24,14 @@ const projects = [
         gitLink: "https://github.com/mykltronn/snippet-organizer",
         image: "./img/snippet.png"
     },
-    {
-        name: "Mars Rover",
-        description: "",
-        languages: "React",
-        webLink: "",
-        gitLink: "https://github.com/mykltronn/mars-rover-photo-app",
-        image: "",
-    }
+    // {
+    //     name: "Mars Rover",
+    //     description: "",
+    //     languages: "React",
+    //     webLink: "",
+    //     gitLink: "https://github.com/mykltronn/mars-rover-photo-app",
+    //     image: "",
+    // }
 ]
 
 export default projects;
