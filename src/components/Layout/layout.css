@@ -1,5 +1,6 @@
 .Navbar {
   position: fixed;
+  z-index: 10;
   top: 0px;
   box-sizing: border-box;
   width: 100%;
@@ -72,4 +73,15 @@
   #menu-item-4:hover {
     color: green;
     transition: all .5s;
+  }
+
+.email {
+  cursor: pointer;
+}
+
+.EmailDrop {
+
+}
+  .show-email {
+
   }
