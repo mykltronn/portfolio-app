@@ -7,8 +7,6 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div className="Portfolio" id="Portfolio">
-        <div className="portfolio-strip"></div>
-        <div className="project-deets-strip"></div>
         <div className="projects">
           {projects.map(project => {
             return (
