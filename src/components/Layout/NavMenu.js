@@ -15,7 +15,7 @@ export default class NavMenu extends Component {
             <Link id="menu-item-2" to="/about">about me</Link>
           </li>
           <li onClick={this.props.click}>
-            <Link id="menu-item-3" to="portfolio">portfolio</Link>
+            <Link id="menu-item-3" exact to="portfolio">portfolio</Link>
           </li>
           <li onClick={this.props.click}>
             <Link id="menu-item-4" to="contact">contact</Link>
