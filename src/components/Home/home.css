@@ -28,7 +28,7 @@
   transform: translate(-50%);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) and (orientation: portrait) {
   .text-one-wrap {
     margin-top: 15px;
     position: relative;
@@ -41,6 +41,13 @@
     position: relative;
     width: 202px;
     left: 50%;
+  }
+}
+
+@media screen and (max-width: 365px) and (orientation: portrait) {
+  .text-one-wrap {
+    margin-top: 30px;
+    margin-left: -11px;
   }
 }
 
