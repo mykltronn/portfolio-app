@@ -60,7 +60,7 @@
     transition: all .5s;
   }
   #menu-item-2:hover {
-    color: green;
+    color: blue;
     transition: all .5s;
   }
   #menu-item-3:hover {
@@ -68,6 +68,6 @@
     transition: all .5s;
   }
   #menu-item-4:hover {
-    color: blue;
+    color: green;
     transition: all .5s;
   }
