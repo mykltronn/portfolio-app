@@ -46,6 +46,7 @@
   transform: scale(1.0);
 }
 #copy-button {
+  cursor: pointer;
   width: 40px;
   height: 20px;
   margin: 7px 40px;
@@ -62,4 +63,38 @@
 #copy-button:active {
   outline: 0;
   transform: scale(0.9);
+}
+
+@media screen and (max-width: 420px) {
+  .Contact {
+    font-size: 26px;
+  }
+
+  .contact-wrap {
+    position: relative;
+    display: inline-block;
+    top: 20%; left: 50%;
+    transform: translate(-50%);
+  }
+
+  .contact-list {
+    font-size: 32px;
+  }
+
+  #EmailDrop {
+    width: 240px;
+    height: 120px;
+  }
+
+  #email-address {
+    display: none;
+  }
+
+  #copy-button {
+    width: 95%;
+    height: 95%;
+    margin: 0px;
+    padding: 0px;
+  }
+
 }

@@ -17,3 +17,16 @@
 .Blurb>p {
   margin-bottom: 18px;
 }
+
+@media screen and (max-width: 420px) {
+
+  .About {
+    padding: 40px;
+  }
+
+  .Blurb {
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    font-size: 22px;
+  }
+}

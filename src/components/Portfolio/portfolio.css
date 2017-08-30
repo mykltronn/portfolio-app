@@ -9,6 +9,17 @@
   overflow: auto;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 420px) {
+  .Portfolio {
+    height: auto;
+  }
+  
+  .projects {
+    overflow: scroll;
+    white-space: normal;
+  }
+}
 /*want to force scroll bar and override chrome scrollbar disappearance*/
 /*.projects::-webkit-scrollbar:horizontal {
   height: 11px;
@@ -20,7 +31,18 @@
   display: inline-block;
 }
 
-.project-image img{
+@media screen and (max-width: 420px) {
+  .Project {
+    height: auto;
+    overflow: visible;
+    display: block;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+  }
+}
+
+.project-image img {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -29,6 +51,13 @@
   box-shadow: 0px 0px 25px 1px grey;
   z-index: -1;
   filter: grayscale(100%) opacity(0.3) blur(2px);
+}
+
+@media screen and (max-width: 420px) {
+  .project-image img {
+    filter: grayscale(0) opacity(1) blur(0);
+    margin-bottom: 60px;
+  }
 }
 
 .project-image {
@@ -44,6 +73,19 @@
   white-space: normal;
   font-family: 'Raleway', sans-serif;
 }
+@media screen and (max-width: 420px) {
+  .project-details {
+    position: relative;
+    top: 0px;
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details h2, .project-details h3 {
+    padding: 15px;
+  }
+}
+
   .project-details h2 {
 
   }
@@ -52,7 +94,7 @@
     line-height: 2;
     padding: 15px;
   }
-  .project-details h5 {
+  .project-details h3 {
 
   }
   #details-lang {
@@ -68,6 +110,16 @@
   display: flex;
   justify-content: space-around;
   font-weight: bold;
+}
+
+@media screen and (max-width: 420px) {
+  .project-links {
+    font-size: 24px;
+  }
+  .project-links li {
+    border: 2px solid black;
+    padding: 3px;
+  }
 }
 
 .project-links li:hover {

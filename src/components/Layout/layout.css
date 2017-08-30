@@ -28,6 +28,14 @@ li {
     transition: all .5s;
   }
 
+@media screen and (max-width: 420px) {
+  .ContactIcons{
+    font-size: 40px;
+    width: 300px;
+    margin-right: 20px;
+  }
+}
+
 .sandwich {
   align-self: flex-end;
   color: black;
@@ -60,6 +68,18 @@ li {
   font-size: 100px;
   margin: 50px;
 }
+
+@media screen and (max-width: 420px) {
+  .menu {
+    padding-top: 50px;
+    font-size: 79px;
+  }
+
+  .menu li {
+    margin-top: 35px;
+  }
+}
+
   #menu-item-1:hover {
     color: red;
     transition: all .5s;
@@ -105,6 +125,7 @@ li {
   transform: scale(1.0);
 }
 #copy-button {
+  cursor: pointer;
   width: 40px;
   height: 20px;
   margin: 7px 40px;

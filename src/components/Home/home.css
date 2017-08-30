@@ -28,6 +28,22 @@
   transform: translate(-50%);
 }
 
+@media screen and (max-width: 420px) {
+  .text-one-wrap {
+    margin-top: 15px;
+    position: relative;
+    transform: translate(0);
+    width: 268px;
+  }
+
+  .text-two-wrap {
+    margin-top: 15px;
+    position: relative;
+    width: 202px;
+    left: 50%;
+  }
+}
+
 #typed-text-one {
   overflow: hidden;
   border-right: .15em solid black;
