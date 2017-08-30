@@ -19,10 +19,10 @@ export default class ContactIcons extends Component {
     return (
       <ul className={"ContactIcons " + (this.props.menuActive ? "icons-active" : '')}>
         <li>
-          <a href="https://github.com/mykltronn" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://github.com/mykltronn" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/m-ashton/" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/m-ashton/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"></i> </a>
         </li>
         <li className="email" onClick={this.toggleEmail}>
           <i className="fa fa-envelope" aria-hidden="true">

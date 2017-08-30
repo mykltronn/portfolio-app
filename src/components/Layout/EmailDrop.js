@@ -18,12 +18,16 @@ export default class EmailDrop extends Component {
 
   render () {
     return (
-      <div className={"EmailDrop " + (this.props.showEmail ? "show-email": '')} onClick={this.props.toggleEmail}>
-        <span id="email-address">mykl.ashton@gmail.com</span>
-        <button
-          data-copytarget="#email-address"
-          id="copy-button"
-          onClick={this.copyEmail.bind(this)}>copy</button>
+      <div
+        className={"EmailDrop " + (this.props.showEmail ? "show-email": '')}
+        onClick={this.props.toggleEmail}
+        style={this.props.styles ? this.props.styles : null}>
+          <span id="email-address">mykl.ashton@gmail.com</span>
+          <button
+            data-copytarget="#email-address"
+            id="copy-button"
+            onClick={this.copyEmail.bind(this)}>copy
+          </button>
       </div>
     )
   }
