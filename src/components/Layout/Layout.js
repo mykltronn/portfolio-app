@@ -5,8 +5,8 @@ import './layout.css'
 const Layout = (props) => {
   return (
     <div className="Layout">
-        <Navigation />
-        {props.children}
+      <Navigation />
+      {props.children}
     </div>
   )
 }

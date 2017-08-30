@@ -4,7 +4,7 @@ import './home.css'
 export default class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="Home" id="home">
         <div className="logo"></div>
         <div className="text-one-wrap">
           <p id="typed-text-one">my name is Michael Ashton</p>

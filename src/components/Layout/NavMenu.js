@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 export default class NavMenu extends Component {
 
@@ -9,16 +8,16 @@ export default class NavMenu extends Component {
         className={"nav-menu-wrap " + (this.props.menuActive ? "nav-menu-active" : '')}>
         <ul className="menu">
           <li onClick={this.props.click} >
-            <Link id="menu-item-1" exact to="/">home</Link>
+            <a id="menu-item-1" href="#home">home</a>
           </li>
           <li onClick={this.props.click}>
-            <Link id="menu-item-2" to="/about">about me</Link>
+            <a id="menu-item-2" href="#about">about me</a>
           </li>
           <li onClick={this.props.click}>
-            <Link id="menu-item-3" exact to="portfolio">portfolio</Link>
+            <a id="menu-item-3" href="#portfolio">portfolio</a>
           </li>
           <li onClick={this.props.click}>
-            <Link id="menu-item-4" to="contact">contact</Link>
+            <a id="menu-item-4" href="#contact">contact</a>
           </li>
         </ul>
       </div>

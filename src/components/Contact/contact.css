@@ -1,10 +1,16 @@
 .Contact {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
-  height: 70vh;
-  width: 70vw;
-  margin: auto;
-  padding-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 120px;
+}
+
+.contact-wrap {
+  position: relative;
+  display: inline-block;
+  top: 30%; left: 30%;
+  transform: translate(-50%);
 }
 
 .contact-list {
