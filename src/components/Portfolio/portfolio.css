@@ -139,6 +139,12 @@
   transition: all 0.3s;
 }
 
+/*.Project:nth-child(3) li:hover {
+  color: purple;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}*/
+
 .Project:nth-child(3) li:hover {
   color: purple;
   transform: scale(1.1);
