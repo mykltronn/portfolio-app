@@ -11,7 +11,7 @@ const projects = [
   {
       name: "Etsy Clone",
       description: "A clone of the popular ecommerce site, Etsy. My group re-created the homepage and header. I created the dropdown navbar from scratch as well as a number of other components on the page.",
-      languages: "React"
+      languages: "React",
       webLink: "https://mykltronn.github.io/Team-Homely/",
       groupLink: "",
       gitLink: "https://github.com/mykltronn/Team-Homely",
