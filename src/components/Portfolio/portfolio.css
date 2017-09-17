@@ -139,13 +139,21 @@
   transition: all 0.3s;
 }
 
-/*.Project:nth-child(3) li:hover {
-  color: purple;
-  transform: scale(1.1);
-  transition: all 0.3s;
-}*/
-
 .Project:nth-child(3) li:hover {
+  color: grey;
+  text-decoration: none;
+  cursor: not-allowed;
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+
+.Project:nth-child(3) .git-link:hover {
+    color: green;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.Project:nth-child(4) li:hover {
   color: purple;
   transform: scale(1.1);
   transition: all 0.3s;

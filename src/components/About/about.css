@@ -1,7 +1,7 @@
 .About {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
-  height: 110vh;
+  /*height: 110vh;*/
   width: 100vw;
   margin: auto;
   padding: 120px;
@@ -12,6 +12,7 @@
   line-height: 2;
   padding: 32px;
   margin: 20px;
+  height: 80vh;
 }
 
 .Blurb>p {
@@ -35,4 +36,24 @@
   .About {
     margin-bottom: 160px;
   }
+}
+
+.Skillz {
+  height: 80vh;
+}
+
+.skillz-title {
+  padding-bottom:
+}
+
+.skillz-list {
+  padding: 32px;
+  margin: 20px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillz-list-item {
+  width: 33%;
 }
