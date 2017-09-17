@@ -1,4 +1,31 @@
-const projects = [
+export const skills = [
+  {name: "HTML5", sub: null},
+  {name: "CSS3", sub: [
+    "Stylus",
+    "Flexbox",
+    "Grid"
+  ]},
+  {name: "Javascript", sub: [
+    "ES2016"
+  ]},
+  {name: "React", sub: null},
+  {name: "Redux", sub: [
+    "Redux-Thunk"
+  ]},
+  {name: "Node.js", sub: [
+    "Express",
+    "Mustache"
+  ]},
+  {name: "MongoDB", sub: [
+    "Mongoose"
+  ]},
+  {name: "SQL", sub: [
+    "Postgresql"
+  ]},
+  {name: "GitHub", sub: null}
+]
+
+export const projects = [
   {
     name: "Airbnb Listing Clone",
     description: "I had six days to complete this clone. The challenge was to create an MVP duplicating a particular Airbnb listing. I used several libraries, built a few carousels by hand and custom-built the 'Booking' widget in the sidebar.",
@@ -42,5 +69,3 @@ const projects = [
   //     image: "",
   // }
 ]
-
-export default projects;

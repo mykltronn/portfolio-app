@@ -10,9 +10,10 @@
   white-space: nowrap;
 }
 
-@media screen and(max-width: 460px) and (orientation: portrait) {
+@media screen and (max-width: 460px) and (orientation: portrait) {
   .Portfolio {
     height: auto;
+    padding: 0px;
   }
 
   .projects {

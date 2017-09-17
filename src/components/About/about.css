@@ -12,7 +12,7 @@
   line-height: 2;
   padding: 32px;
   margin: 20px;
-  height: 80vh;
+  height: auto;
 }
 
 .Blurb>p {
@@ -23,6 +23,7 @@
 
   .About {
     padding: 40px;
+    height: auto;
   }
 
   .Blurb {
@@ -35,7 +36,9 @@
 @media screen and (max-width: 365px) and (orientation: portrait) {
   .About {
     margin-bottom: 160px;
+    height: auto;
   }
+
 }
 
 .Skillz {
@@ -43,7 +46,7 @@
 }
 
 .skillz-title {
-  padding-bottom:
+  padding-bottom: 20px;
 }
 
 .skillz-list {
@@ -52,8 +55,32 @@
   height: 300px;
   display: flex;
   flex-wrap: wrap;
+  font-size: 24px;
 }
 
 .skillz-list-item {
   width: 33%;
+}
+
+.skillz-sub {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 460px) and (orientation: portrait) {
+  .Skillz {
+    margin: 200px 0px;
+    height: auto;
+  }
+  .skillz-list {
+    height: auto;
+  }
+  .skillz-title {
+    width: 70%;
+  }
+  .skillz-list-item {
+    width: 100%;
+    padding: 20px 0px;
+  }
 }

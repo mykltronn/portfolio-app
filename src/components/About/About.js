@@ -1,7 +1,8 @@
 import React from 'react';
 import Blurb from './Blurb.js'
 import Skillz from './Skillz.js';
-import './about.css'
+// import icons from '../../img/svg-icons.js';
+import './about.css';
 
 const About = () => {
   return (
